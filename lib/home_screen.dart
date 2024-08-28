@@ -14,9 +14,13 @@ class _HomeScreenState extends State<HomeScreen> {
       child: Scaffold(
         body: Column(
           children: [
+            SizedBox(
+              height: 10,
+            ),
             MyButton(title: "Login",),
             MyButton(title: "Sign Up",),
             MyButton(title: "facebook"),
+            MyButton(title: "Instagram"),
             SizedBox(
               height: 10,
             )
